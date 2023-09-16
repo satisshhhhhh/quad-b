@@ -25,7 +25,7 @@ const Login = () => {
           placeholder="Password"
           value={password}
           onChange={(e) => setPassword(e.target.value)}
-          className="login-input" // Apply the same CSS class to this input element
+          className="login-input"
         />
         <button onClick={handleLogin}>Login</button>
       </div>
